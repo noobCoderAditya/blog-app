@@ -1,10 +1,9 @@
-package com.boobCoder.blog.entity;
+package com.noobCoder.blog.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.NonNull;
 
 @Data
 @NoArgsConstructor

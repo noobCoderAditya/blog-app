@@ -1,7 +1,7 @@
-package com.boobCoder.blog.controller;
+package com.noobCoder.blog.controller;
 
-import com.boobCoder.blog.entity.Blog;
-import com.boobCoder.blog.service.BlogService;
+import com.noobCoder.blog.entity.Blog;
+import com.noobCoder.blog.service.BlogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

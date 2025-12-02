@@ -1,4 +1,4 @@
-package com.boobCoder.blog.entity;
+package com.noobCoder.blog.entity;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 @Data
 @NoArgsConstructor

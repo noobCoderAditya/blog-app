@@ -1,4 +1,4 @@
-package com.boobCoder.blog.javaPracticeCode;
+package com.noobCoder.blog.javaPracticeCode;
 
 public class GenericsPractice<T> {
     public void printType(String s){

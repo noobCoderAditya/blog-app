@@ -1,4 +1,4 @@
-package com.boobCoder.blog.controller;
+package com.noobCoder.blog.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,6 +10,6 @@ public class HealthCheck {
 
     @GetMapping("/health-check")
     public String checkHealth(){
-        return "Application is up and running fine !";
+        return "Application is up and running fine... !";
     }
 }

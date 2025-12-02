@@ -1,4 +1,4 @@
-package com.boobCoder.blog.config;
+package com.noobCoder.blog.config;
 
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;

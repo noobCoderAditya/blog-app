@@ -1,7 +1,6 @@
-package com.boobCoder.blog.repository;
+package com.noobCoder.blog.repository;
 
-import com.boobCoder.blog.entity.Blog;
-import com.boobCoder.blog.entity.User;
+import com.noobCoder.blog.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

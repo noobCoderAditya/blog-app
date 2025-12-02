@@ -1,7 +1,7 @@
-package com.boobCoder.blog.service;
+package com.noobCoder.blog.service;
 
-import com.boobCoder.blog.entity.User;
-import com.boobCoder.blog.repository.UserRepository;
+import com.noobCoder.blog.entity.User;
+import com.noobCoder.blog.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

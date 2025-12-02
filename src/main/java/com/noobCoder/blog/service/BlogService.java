@@ -1,15 +1,14 @@
-package com.boobCoder.blog.service;
+package com.noobCoder.blog.service;
 
-import com.boobCoder.blog.entity.Blog;
-import com.boobCoder.blog.entity.User;
-import com.boobCoder.blog.repository.BlogRepository;
-import com.boobCoder.blog.repository.UserRepository;
+import com.noobCoder.blog.entity.Blog;
+import com.noobCoder.blog.entity.User;
+import com.noobCoder.blog.repository.BlogRepository;
+import com.noobCoder.blog.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
