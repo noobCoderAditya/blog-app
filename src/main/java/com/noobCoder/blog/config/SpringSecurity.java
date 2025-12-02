@@ -23,7 +23,7 @@ public class SpringSecurity implements SpringSecurityConfig {
         http
                 .csrf(csrf -> csrf.disable()) // disable CSRF for APIs
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/user/create-user", "/user/create-user/**").permitAll() // allow open access for create-user
+                        .requestMatchers("/blog-app/health-check","/user/create-user", "/user/create-user/**").permitAll() // allow open access for create-user
                         .anyRequest().authenticated() // other requests need authentication
                 )
                 .httpBasic(Customizer.withDefaults());
